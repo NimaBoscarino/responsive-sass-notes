@@ -1,0 +1,8 @@
+.cool {
+  background-color: blue;
+}
+
+.cool.more {
+  font: 100% Helvetica, sans-serif;
+  color: yellow;
+}

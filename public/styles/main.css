@@ -1,0 +1,46 @@
+/* Nima's reset */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 20%;
+  background: #E57A44;
+}
+
+.chunk {
+  height: 60%;
+  background: #D6DBB2;
+  display: flex;
+  flex-direction: row;
+}
+
+.chunk aside, .chunk article {
+  height: 100%;
+}
+
+.chunk aside {
+  width: 30%;
+  background: #E3D985;
+}
+
+.chunk article {
+  width: 40%;
+  background: #422040;
+}
+
+footer {
+  height: 20%;
+  background: #BCD8C1;
+}
+
+@media screen and (max-width: 600px) {
+  .chunk {
+    flex-direction: column;
+  }
+  aside, article {
+    width: 100%;
+  }
+}

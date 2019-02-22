@@ -1,0 +1,11 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: yellow;
+
+.cool {
+  background-color: blue;
+
+  &.more {
+    font: 100% $font-stack;
+    color: $primary-color;
+  }
+}

@@ -1,0 +1,50 @@
+/* Nima's reset */
+$color1: #E57A44;
+$color2: #D6DBB2;
+$color3: #E3D985;
+$color4: #422040;
+$color5: #BCD8C1;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@import 'header';
+
+.chunk {
+  height: 60%;
+  background: $color2;
+  display: flex;
+  flex-direction: row;
+
+  aside, article {
+    height: 100%;
+  }
+  
+  aside {
+    width: 30%;
+    background: $color3;
+  }
+  
+  article {
+    width: 40%;
+    background: $color4;
+  }  
+}
+
+footer {
+  height: 20%;
+  background: $color5;
+}
+
+@media screen and (max-width: 600px) {
+  .chunk {
+    flex-direction: column;
+  }
+
+  aside, article {
+    width: 100%;
+  }
+}
