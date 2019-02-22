@@ -2,7 +2,13 @@
 
 [Code for responsive stuff (3 demos)](https://gist.github.com/NimaBoscarino/78e4cee6678c803621f6bd332952904e)
 
-[Code for SASS stuff (github repo)]()
+[Code for SASS stuff (github repo)](https://github.com/NimaBoscarino/responsive-sass-notes)
+
+## Fun Stuff
+
+[Flexbox Froggy](https://flexboxfroggy.com/)
+
+[CSS Grid Garden](http://cssgridgarden.com/) - we didn't talk about CSS Grid, but you can take a look at this for some fun.
 
 Welcome! Today we took a look at how we can write CSS that is _responsive_.
 
@@ -23,6 +29,12 @@ They cover some things that we didn't touch on in class, but that you might find
 As far as SASS goes, the very best place to start is the main documentation: https://sass-lang.com/guide
 
 It's honestly pretty much impossible for me to write a better writeup than what they have there. Take a look at the Github repo (linked way up above) to see the demo that we worked on to rewrite our CSS in SASS (for that flexboxy example).
+
+## CSS Grid
+
+We didn't talk about CSS grid today, but it is something that you might find worth looking at. It's one more way to do responsive layouts. There's a grid system in CSS, and there's also a grid system that Bootstrap (a CSS framework) provides.
+
+https://getbootstrap.com/docs/4.0/layout/grid/
 
 ## Etc...
 
